@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+    font-family: arial;
+}
+
+h1 {
+    color: gray;
+}
+.row {
+    width: 100vw;
+    background: gray;
+}
+.col-half {
+    float: left;
+    width: 50vw;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 0 0 0 10px;
+}
+
+ol {
+    border: 1px solid #666;
+    margin: 0 20px;
+    background: #efefef;
+}
+
+li {
+    list-style: none;
+}
+li:hover {
+    background: darkgray;
+}
+a {
+    display: block;
+    font-size: 16px;
+    padding: 4px 8px;
+    color: #333;
+    text-decoration: none;
+}
+h3 {
+    margin: 10px;
+}
+
+
+
+/* Sort list styles */
+body.dragging, body.dragging * {
+    cursor: move !important;
+}
+
+.dragged {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2000;
+}
+
+ol.example li.placeholder {
+    position: relative;
+    /** More li styles **/
+}
+ol.example li.placeholder:before {
+    position: absolute;
+    /** Define arrowhead **/
+}
+
+
+
+
